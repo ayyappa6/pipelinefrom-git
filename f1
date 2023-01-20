@@ -11,5 +11,10 @@ pipeline {
 				echo "last command today"
 				}
 			}
+		stage (fourth){
+			steps (fourth){
+				echo "fourth "
+				}
+			}
 		}
 	}
