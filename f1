@@ -1,7 +1,7 @@
 pipeline {
 	agent any 
 	stages {
-		stage (this is first stage '){
+		stage ('this is first stage '){
 			steps {
 				echo "this is first commit"
 				}
