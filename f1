@@ -6,5 +6,10 @@ pipeline {
 				echo "this is first commit"
 				}
 			}
+		stage ('third stage '){
+			steps ('egfjbws'){
+				echo "last command today"
+				}
+			}
 		}
 	}
